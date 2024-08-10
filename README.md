@@ -6,17 +6,18 @@ It can be extended to doing generation, using learned activations to restrict th
 
 ## How to use?
 
-It is pretty simple. Simply install the following dependencies
+It is pretty simple. Simply create the following conda environment and install the specified dependencies.
 
 ```
+conda create -n vae python=3.10
+conda activate vae
 pip install torch torchvision matplotlib
 ```
-
-and to run the file
-
+Simply run
 ```
 python vae.py
 ```
+to start training and to see some reconstructions!
 
 ## Citation
 The code was written by me and the paper by myself and Sunay Joshi. Below we provide a citation to the paper for formality sake.
