@@ -1,6 +1,6 @@
 # VAE-Blog-Code
 
-This is the code associated with the blog post linked [here](https://dsaha04.github.io/blog/2024/VAEs&EM/). It implements a simple reconstruction task on the MNIST dataset using exactly the theoretical training objective listed in our paper.
+This is the code associated with the blog post linked [here](https://dsaha04.github.io/blog/2024/VAEs&EM/). It implements a simple reconstruction task on the MNIST dataset using exactly the theoretical training objective listed in our [paper](https://dsaha04.github.io/assets/pdf/VAEs.pdf).
 
 It can be extended to doing generation, using learned activations to restrict the output space, or potentially using a deterministic decoder while in evaluation mode.
 
