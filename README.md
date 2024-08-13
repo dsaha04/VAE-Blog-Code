@@ -13,14 +13,14 @@ conda create -n vae python=3.10
 conda activate vae
 pip install torch torchvision matplotlib
 ```
-Simply run
+Run
 ```
 python vae.py
 ```
 to start training and to see some reconstructions!
 
 ## Citation
-The code was written by me and the paper by myself and Sunay Joshi. Below we provide a citation to the paper for formality sake.
+The code was written by me, and the paper was co-authored by myself and Sunay Joshi. Below, we provide a citation to the paper for formality's sake. Lastly, I thank my roommate, Alex Zhang, for reviewing the code and helping implement the empirical objective of the reconstruction loss with $L$ fresh samples, which allowed us to avoid using BCELoss.
 
 ```
 @article{sahajoshivaeandem2024,
